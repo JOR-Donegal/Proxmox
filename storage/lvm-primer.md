@@ -6,13 +6,13 @@ description: Logical Volume Manager
 
 Disks are physical devices.
 
-We can also have logical devices like partitins, which are subdivisions of a disk. But it doesn't have to be this way. We could aggregate disks together to get certain properties (performance, availability, size) and this is what we do with RAID controllers.&#x20;
+We can also have logical devices like partitions, which are subdivisions of a disk. But it doesn't have to be this way. We could aggregate disks together to get certain properties (performance, availability, size) and this is what we do with RAID controllers.
 
-<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Most operating system implement some form of logical volume manager (LVM) to abstract the storage from the requirements of the operating system A physical volume (PV) used to be a hard drive, but on a modern system it could be a partition, or it could be a concatenation of drives. It could also be presented as a logical unit number (LUN) of a remote storage array The physical volume will probably store data in sectors but these sectors are normally too small for optimal usage by the operating system. Sectors will be aggregated into blocks/clusters. Blocks might be aggregated into physical extents (PE), a contiguous area of storage. The PEs aggregate to form a volume group or VG and a volume group can be resized dynamically by adding new PVs.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 The OS will be presented with logical extents (LEs). These may map directly to PEs or more complex arrangements may exist. For example, we sometimes mirror data to two disks for high availability. In this case, we might have a single LE map to two discrete PEs on separate PVs. Virtual partitions can be created from LEs called logical volumes or LVs. LVs can be expanded by adding new LEs to them. LVs can be moved from PV to PV as required. Software RAID allows us to make some very beneficial use of this flexibility.
 
