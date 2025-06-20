@@ -1,20 +1,20 @@
 # Updates
 
-If I try to do updates, it will fail, as I do not have an enterprise license. We can change this by selecting Repositories,  Add, and then in the drop down box, select No-Subscription.&#x20;
+If I try to do updates, it will fail, as I do not have an enterprise license. We can change this by selecting Repositories, Add, and then in the drop down box, select No-Subscription.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 I disable the two enterprise repositories (click on them and then click **disable**).
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;I go back to updates and click refresh.&#x20;
+I go back to updates and click refresh.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 I click Upgrade and a console window opens to perform this.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 Always best to do a reboot if you can.
 
@@ -35,4 +35,3 @@ After confirming this, you could also do future updates via the command prompt u
 apt update
 apt upgrade
 ```
-
