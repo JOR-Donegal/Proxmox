@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Installation](README.md)
+* [Getting Started](README.md)
+* [Installation](<README (1).md>)
   * [First Login](installation/first-login.md)
   * [Updates](installation/updates.md)
   * [Reconnaissance](installation/reconnaissance.md)
