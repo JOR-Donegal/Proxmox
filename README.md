@@ -1,7 +1,3 @@
----
-description: For exercises only
----
-
 # Installation
 
 These notes assume basic skills and understanding in Networking, Linux and Storage. If you have not covered these modules with me, talk to your lecturer before you begin.
