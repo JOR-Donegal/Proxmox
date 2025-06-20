@@ -2,9 +2,9 @@
 
 Like with VMWare, there are several components to the network connection. A bridge (**vmbr**_**x**_) is assigned an IP address as a way for the kernel to interact. This then connects to one or more physical interfaces.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-Proxmox uses Linux for its network stack, if you are familiar with Linux networking, this is easy. The configuration file is **/etc/network/interfaces**, however, Proxmox also uses an intermediate **/etc/network/interfaces.new** so that multiple changes can be made before committing.&#x20;
+Proxmox uses Linux for its network stack, if you are familiar with Linux networking, this is easy. The configuration file is **/etc/network/interfaces**, however, Proxmox also uses an intermediate **/etc/network/interfaces.new** so that multiple changes can be made before committing.
 
 ```
 auto lo
@@ -26,6 +26,6 @@ source /etc/network/interfaces.d/*
 
 Looking at the user interface, I have configured four connections and this is
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-When you install Proxmox first, it will need a network interface for management. During the installation dialogue, you provide IPv4 information for this and it assigns to _**vmbr0**_.&#x20;
+When you install Proxmox first, it will need a network interface for management. During the installation dialogue, you provide IPv4 information for this and it assigns to _**vmbr0**_.
