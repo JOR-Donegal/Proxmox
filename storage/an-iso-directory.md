@@ -4,15 +4,15 @@ Do this exercise on a VM instanhce only, for trianing. If you are working on bar
 
 I have added a second disk to my VM and verified that it shows up as **/dev/sdb**.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I can then create a directory as a file store.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 If I examine the directory, it allows me to create a range of file types.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 If I examine /etc/pve/storage.cfg
 
