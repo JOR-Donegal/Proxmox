@@ -4,7 +4,7 @@ These notes assume basic skills and understanding in Networking, Linux and Stora
 
 I am going to build this as a VM under VMWare Workstation, just for testing. I make sure to enable nested virtualization. If you are installing on bare metal, the process will be the same, just without the VMWare activities.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I used Debian 12 as VM type.
 
@@ -12,7 +12,7 @@ I used Debian 12 as VM type.
 
 Go to ProxMox.com and download Proxmox VE.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 If you are installing on bare metal, burn this ISO on to a USB key using RUFUS or similar tool.
 
