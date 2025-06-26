@@ -4,6 +4,14 @@ Bonding (NIC teaming, Link Aggregation) allows an administrator to bind multiple
 
 There are seven different modes in which this can be configured, on a live network I'll try to use IEEE802.3ad as long as my switching infrastructure supports it. I'm not going to cover link aggregation control protocol (LACP) here, but I do in my network modules. For more details, read [here](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#sysadmin_network_configuration).
 
+First, I am going to add a second management interface. In a physical installation, this would connect to the second Top of Rack (ToR) switch.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-26 122535.png" alt=""><figcaption></figcaption></figure>
+
+Next I'm going to set up the interfaces for the VMs to connect to. This will be trunked so we will not provide an IP address.
+
+
+
 I am going to add ens38 and 39 to a net bond0, using a round-robin algorithm to load balance.
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
@@ -28,28 +36,32 @@ iface lo inet loopback
 
 iface ens33 inet manual
 
-auto ens37
 iface ens37 inet manual
 
 auto ens38
 iface ens38 inet manual
 
+auto ens39
 iface ens39 inet manual
+
+iface ens40 inet manual
+
+iface ens41 inet manual
 
 auto bond0
 iface bond0 inet manual
-        bond-slaves ens37 ens38
+        bond-slaves ens38 ens39
         bond-miimon 100
         bond-mode balance-rr
-#For tagged traffic
 
 auto vmbr0
 iface vmbr0 inet static
-        address 192.168.146.11/24
-        gateway 192.168.146.2
-        bridge-ports ens33
+        address 192.168.171.21/24
+        gateway 192.168.171.2
+        bridge-ports ens33 ens37
         bridge-stp off
         bridge-fd 0
+#For management
 
 auto vmbr1
 iface vmbr1 inet manual
@@ -59,5 +71,6 @@ iface vmbr1 inet manual
 #For tagged traffic
 
 source /etc/network/interfaces.d/*
+
 
 ```
