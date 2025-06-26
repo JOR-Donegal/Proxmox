@@ -1,6 +1,10 @@
 # Updates
 
-If I try to do updates, it will fail, as I do not have an enterprise license. We can change this by selecting Repositories, Add, and then in the drop down box, select No-Subscription.
+If I try to do updates, it will fail, as I do not have an enterprise license.&#x20;
+
+In the left pane, select the server.
+
+We can change this by selecting **Repositories**, **Add,** and then in the drop down box, select **No-Subscription**.
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 

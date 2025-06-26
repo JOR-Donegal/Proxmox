@@ -1,6 +1,6 @@
 # An ISO directory
 
-Do this exercise on a VM instanhce only, for trianing. If you are working on bare metal, this needs to be done in a more structured way.
+Do this exercise on a VM instance only, for training. If you are working on bare metal, this needs to be done in a more structured way.
 
 I have added a second disk to my VM and verified that it shows up as **/dev/sdb**.
 

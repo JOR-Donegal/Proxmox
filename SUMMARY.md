@@ -1,12 +1,12 @@
 # Table of contents
 
 * [Getting Started](README.md)
-  * [Recce](getting-started/recce.md)
+  * [Initial Reconnaissance](getting-started/initial-reconnaissance.md)
   * [Installation](getting-started/readme/README.md)
     * [First Login](getting-started/readme/first-login.md)
     * [Updates](getting-started/readme/updates.md)
     * [Reconnaissance](getting-started/readme/reconnaissance.md)
-  * [Storage](getting-started/storage/README.md)
+  * [Simple storage](getting-started/storage/README.md)
     * [LVM Primer](getting-started/storage/lvm-primer.md)
     * [An ISO directory](getting-started/storage/an-iso-directory.md)
   * [Virtual Machines](getting-started/virtual-machines/README.md)
