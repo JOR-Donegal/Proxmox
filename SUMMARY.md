@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
+  * [Recce](getting-started/recce.md)
   * [Installation](getting-started/readme/README.md)
     * [First Login](getting-started/readme/first-login.md)
     * [Updates](getting-started/readme/updates.md)
