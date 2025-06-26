@@ -1,4 +1,4 @@
-# Recce
+# Initial Reconnaissance
 
 Before I begin, I need to verify my VMWare network environment.&#x20;
 

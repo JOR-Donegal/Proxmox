@@ -14,8 +14,8 @@ iface ens33 inet manual
 
 auto vmbr0
 iface vmbr0 inet static
-        address 192.168.146.11/24
-        gateway 192.168.146.2
+        address 192.168.171.21/24
+        gateway 192.168.171.2
         bridge-ports ens33
         bridge-stp off
         bridge-fd 0
@@ -25,7 +25,5 @@ source /etc/network/interfaces.d/*
 ```
 
 Looking at the user interface, I have configured four connections and this is
-
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 When you install Proxmox first, it will need a network interface for management. During the installation dialogue, you provide IPv4 information for this and it assigns to _**vmbr0**_.

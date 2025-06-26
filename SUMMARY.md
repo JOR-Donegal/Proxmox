@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Getting Started](README.md)
-  * [Initial Reconnaissance](getting-started/initial-reconnaissance.md)
+  * [Initial Reconnaissance](getting-started/recce.md)
   * [Installation](getting-started/readme/README.md)
     * [First Login](getting-started/readme/first-login.md)
     * [Updates](getting-started/readme/updates.md)
@@ -14,6 +14,7 @@
     * [Create VMs](getting-started/virtual-machines/create-vms.md)
   * [Networking](getting-started/networking/README.md)
     * [Bridge](getting-started/networking/bridge.md)
+    * [Prepare](getting-started/networking/prepare.md)
     * [Bonds](getting-started/networking/bonds.md)
 * [Cluster](cluster/README.md)
   * [Networking](cluster/networking.md)

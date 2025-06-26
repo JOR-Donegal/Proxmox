@@ -45,3 +45,5 @@ And now I can start it and install the guest OS.
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 I am not going to document the install, I presume you know how to do this! However, its best to install minimums of everything.
+
+Unmount the ISO when you finish.
