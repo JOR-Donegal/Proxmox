@@ -2,11 +2,13 @@
 
 These notes assume basic skills and understanding in Networking, Linux and Storage. If you have not covered these modules with me, talk to your lecturer before you begin.
 
-I am going to build this as a VM under VMWare Workstation, just for testing. I make sure to enable nested virtualization. If you are installing on bare metal, the process will be the same, just without the VMWare activities.
+I am going to build this as a VM under VMWare Workstation, just for testing. I make sure to enable nested virtualization (Virtualize Intel VT-x). In recent times, it can be messy to make this work, check my VMWare Workstation notes for some hints.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-26 103135.png" alt=""><figcaption></figcaption></figure>
 
 I used Debian 12 as VM type.
+
+If you are installing on bare metal, the process will be the same, just without the VMWare activities.
 
 ## Download
 
@@ -34,12 +36,12 @@ I enter a strong password and e-mail address.
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
-I am using a NAT'd subnet in VMWare Workstation, so the defaults are fine for now.
+I am using a NAT'd subnet in VMWare Workstation, so the defaults are fine for now. My management interface will be on the NAT'd subnet.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-26 105604.png" alt=""><figcaption></figcaption></figure>
 
 Ready to install!
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-26 105749.png" alt=""><figcaption></figcaption></figure>
 
 After I press **Install**, it takes a few minutes.
