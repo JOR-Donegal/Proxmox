@@ -2,19 +2,19 @@
 
 If I try to do updates, it will fail, as I do not have an enterprise license. We can change this by selecting Repositories, Add, and then in the drop down box, select No-Subscription.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 I disable the two enterprise repositories (click on them and then click **disable**).
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 I go back to updates and click refresh.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 I click Upgrade and a console window opens to perform this.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 Always best to do a reboot if you can.
 

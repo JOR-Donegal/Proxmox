@@ -6,19 +6,19 @@ There are seven different modes in which this can be configured, on a live netwo
 
 I am going to add ens38 and 39 to a net bond0, using a round-robin algorithm to load balance.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 I then create a new bridge to use this bond.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 And finally, I apply the configuration.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 The status changes to active for the bond and the bridge.
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 The configuration file is **/etc/network/interfaces** now appears as
 
