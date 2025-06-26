@@ -14,4 +14,5 @@
   * [Networking](getting-started/networking/README.md)
     * [Bridge](getting-started/networking/bridge.md)
     * [Bonds](getting-started/networking/bonds.md)
-* [Cluster](cluster.md)
+* [Cluster](cluster/README.md)
+  * [Networking](cluster/networking.md)
