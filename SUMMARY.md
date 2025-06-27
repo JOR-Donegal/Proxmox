@@ -17,4 +17,5 @@
     * [Prepare](getting-started/networking/prepare.md)
     * [Bonds](getting-started/networking/bonds.md)
 * [Cluster](cluster/README.md)
+  * [Cloning](cluster/cloning.md)
   * [Networking](cluster/networking.md)
