@@ -114,24 +114,29 @@ root@pve31:~#
 
 Now I do the same for /dev/sdc and /dev/sdd on each server.
 
-At the end, I check to see what OSD I have.
+At the end, I check to see what OSD I have and there identifiers.
 
 ```
-root@pve31:~# ceph osd tree
+root@pve32:~# ceph osd tree
 ID  CLASS  WEIGHT   TYPE NAME       STATUS  REWEIGHT  PRI-AFF
--1         0.15588  root default                             
+-1         0.17537  root default                             
 -3         0.05846      host pve31                           
  0    hdd  0.01949          osd.0       up   1.00000  1.00000
  1    hdd  0.01949          osd.1       up   1.00000  1.00000
  2    hdd  0.01949          osd.2       up   1.00000  1.00000
--7         0.03897      host pve32                           
+-7         0.05846      host pve32                           
+ 3    hdd  0.01949          osd.3       up   1.00000  1.00000
  5    hdd  0.01949          osd.5       up   1.00000  1.00000
  7    hdd  0.01949          osd.7       up   1.00000  1.00000
 -5         0.05846      host pve33                           
  4    hdd  0.01949          osd.4       up   1.00000  1.00000
  6    hdd  0.01949          osd.6       up   1.00000  1.00000
  8    hdd  0.01949          osd.8       up   1.00000  1.00000
- 3               0  osd.3             down   1.00000  1.00000
-root@pve31:~# 
+root@pve32:~# 
 ```
 
+And through the GUI
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+I could have done this through the GUI, but in earlier versions, it was a bit buggy.
