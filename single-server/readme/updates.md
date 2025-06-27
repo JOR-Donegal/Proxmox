@@ -1,6 +1,6 @@
 # Updates
 
-If I try to do updates, it will fail, as I do not have an enterprise license.&#x20;
+If I try to do updates, it will fail, as I do not have an enterprise license. Review [here](https://pve.proxmox.com/wiki/Package_Repositories).
 
 In the left pane, select the server.
 
@@ -32,6 +32,14 @@ ls -l
 Examine these files. The enterprise repos should be commented out.
 
 If you navigate to **/etc/apt**, you can can check the **sources.list** file to see what repos you are using.
+
+```
+deb http://ftp.ie.debian.org/debian bookworm main contrib
+deb http://ftp.ie.debian.org/debian bookworm-updates main contrib
+# security updates
+deb http://security.debian.org bookworm-security main contrib
+deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription
+```
 
 After confirming this, you could also do future updates via the command prompt using
 

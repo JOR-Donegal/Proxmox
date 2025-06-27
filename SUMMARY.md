@@ -19,4 +19,5 @@
     * [Bonds](single-server/networking/bonds.md)
 * [Cluster](cluster/README.md)
   * [Clones](cluster/clones.md)
-  * [Networking](cluster/networking.md)
+  * [Physical Networking](cluster/physical-networking.md)
+  * [Cluster Preparation](cluster/cluster-preparation.md)
