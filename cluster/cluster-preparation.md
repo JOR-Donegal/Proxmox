@@ -16,3 +16,7 @@ to add the locale on each server.
 
 Previously we configured entries for each server in the hosts file. Do a ping test and make sure each server is visible to the others.
 
+## Updates
+
+Do updates on each server before proceeding.
+

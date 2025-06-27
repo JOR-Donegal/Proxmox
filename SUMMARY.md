@@ -21,3 +21,4 @@
   * [Clones](cluster/clones.md)
   * [Physical Networking](cluster/physical-networking.md)
   * [Cluster Preparation](cluster/cluster-preparation.md)
+  * [Create the cluster](cluster/create-the-cluster.md)
