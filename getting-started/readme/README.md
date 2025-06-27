@@ -2,7 +2,11 @@
 
 These notes assume basic skills and understanding in Networking, Linux and Storage. If you have not covered these modules with me, talk to your lecturer before you begin.
 
-I am going to build this as a VM under VMWare Workstation, just for testing. I make sure to enable nested virtualization (Virtualize Intel VT-x). In recent times, it can be messy to make this work, check my VMWare Workstation notes for some hints.
+I am going to build this as a VM under VMWare Workstation, just for testing.&#x20;
+
+I need to be able to use it for later, more complex exercises, so its important to call it **pve21** and give it an IP address with **.21** as the last octet.
+
+I make sure to enable nested virtualization (Virtualize Intel VT-x). In recent times, it can be messy to make this work, check my VMWare Workstation notes for some hints.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-06-26 103135.png" alt=""><figcaption></figcaption></figure>
 
