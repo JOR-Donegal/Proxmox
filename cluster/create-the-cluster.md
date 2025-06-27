@@ -152,3 +152,5 @@ Checking from the web interface
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 I need to up the memory per pve a bit!
+
+I have the same interface on any of the three servers
