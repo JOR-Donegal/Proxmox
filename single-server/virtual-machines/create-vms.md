@@ -2,7 +2,7 @@
 
 I have uploaded an ISO, in this sequence I will create a first VM. Click on the button in the top right corner.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 I still have only one node called **pve21**.
 

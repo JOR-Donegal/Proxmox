@@ -24,3 +24,4 @@
   * [Create the cluster](cluster/create-the-cluster.md)
   * [Cluster File System](cluster/cluster-file-system.md)
   * [Finally](cluster/finally.md)
+* [Ceph](ceph.md)

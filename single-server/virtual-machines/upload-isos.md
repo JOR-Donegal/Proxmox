@@ -6,7 +6,7 @@ A generic system has two storage areas. The volume **local** already has a folde
 
 The volume **local-lvm** expects VMs and Containers to be stored and is empty.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 I am going to use Ubuntu 22.04 server for my test VMs, I'll upload the ISO file now.
 
