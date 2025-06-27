@@ -22,7 +22,7 @@ Restart corosync and cluster filesystem
 root@pve31:~# 
 ```
 
-Corosync is a messaging platform that allows cluster members to communicate, you can read about it [here](https://corosync.github.io/corosync/).
+Corosync is a messaging platform that allows cluster members to communicate, you can read about it [here](https://corosync.github.io/corosync/). It also keeps each server aware of the other servers status. This type of monitoring does not require high bandwidth, but it does need low latency.
 
 On **pve2** I run the following command to add **pve2** to the cluster on **pve1.**
 

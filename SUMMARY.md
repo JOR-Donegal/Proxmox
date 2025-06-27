@@ -22,4 +22,5 @@
   * [Physical Networking](cluster/physical-networking.md)
   * [Cluster Preparation](cluster/cluster-preparation.md)
   * [Create the cluster](cluster/create-the-cluster.md)
+  * [Cluster File System](cluster/cluster-file-system.md)
   * [Finally](cluster/finally.md)
