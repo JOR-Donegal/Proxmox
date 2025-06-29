@@ -23,3 +23,5 @@ I use defaults for CPU and memory.
 I leave default network settings and on the Confirm screen, I click Finish.
 
 I start the VM and go through a conventional Ubuntu Server installation, picking the minimums for everything.
+
+When I finish, I remove the ISO file from the image. This is a local resource, you cannot move a VM between servers if its constrained by a resource local to a single server.&#x20;
