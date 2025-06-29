@@ -34,3 +34,4 @@
       * [Pools](ceph/installation/configuration/pools.md)
   * [Virtual Machines](ceph/virtual-machines/README.md)
     * [Upload an image](ceph/virtual-machines/upload-an-image.md)
+    * [Create a VM](ceph/virtual-machines/create-a-vm.md)
