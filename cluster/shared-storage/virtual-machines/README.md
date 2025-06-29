@@ -4,4 +4,4 @@ When I created my Proxmox VMs, I used Debian 12 as the machine type. The VMs hav
 
 Ensure that nested virtualization is enabled.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-29 104244.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-29 104244.png" alt=""><figcaption></figcaption></figure>

@@ -137,6 +137,6 @@ root@pve32:~#
 
 And through the GUI
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 I could have done this through the GUI, but in earlier versions, it was a bit buggy.

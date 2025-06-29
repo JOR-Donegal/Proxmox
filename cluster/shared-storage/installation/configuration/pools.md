@@ -6,11 +6,11 @@ In Ceph->Pools I click to create a pool.
 
 In a production environment, we would have three copies of our data, and a minimum of 2 copies.
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Click create and then check to make sure its done.
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 Finished!
 

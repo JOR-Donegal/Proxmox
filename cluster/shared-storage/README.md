@@ -1,4 +1,4 @@
-# Ceph
+# Shared Storage
 
 At the moment, we could run VMs and we could move them from server to server, but it would be slow. Whenever we have virtualization clusters, we have a shared storage technology. In VMWare, this is vSAN, in Hyper-V, Clustered Shared Storage.
 
@@ -8,7 +8,7 @@ For reliable storage, we need at least 3 copies, but our capacity will be Total/
 
 Consider our three servers. Shut them down now and add three 20GB hard drives to each.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Now restart the pve's.
 
