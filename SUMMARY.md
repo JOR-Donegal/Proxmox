@@ -32,3 +32,5 @@
       * [Monitor](ceph/installation/configuration/monitor.md)
       * [OSD](ceph/installation/configuration/osd.md)
       * [Pools](ceph/installation/configuration/pools.md)
+  * [Virtual Machines](ceph/virtual-machines/README.md)
+    * [Upload an image](ceph/virtual-machines/upload-an-image.md)

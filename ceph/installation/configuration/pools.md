@@ -14,4 +14,4 @@ Click create and then check to make sure its done.
 
 Finished!
 
-Now I can create VM, live migrate, etc.
+Now I can create VMs, live migrate, etc.
