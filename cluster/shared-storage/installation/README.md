@@ -11,5 +11,3 @@ We need to install Ceph on _each_ server in the cluster, for example
 ```
 root@pve31:~# pveceph install --repository no-subscription
 ```
-
-##
